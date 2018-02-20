@@ -51,8 +51,9 @@ groceries = ["apples", "milk", "eggs", "bread"]
 //as a parameter.
 
 function doubleCheck (array){
- if(array !=="chocolate"){
-   array.push("chocolate")
+ if(array.includes("chocolate")){
+ } else {
+  array.push("chocolate")
  }
  return array;
 }
